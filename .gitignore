@@ -1,0 +1,7 @@
+sftp-config.json
+**/assets/*
+**/protected/runtime
+**/protected/data/*.db
+**/themes/classic/views/
+!**/assets/.gitignore
+!**/protected/runtime/.gitignore
