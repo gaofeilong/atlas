@@ -3,9 +3,9 @@
 $isHome = TRUE;
 return $isHome? [
         'class' => 'yii\db\Connection',
-        'dsn' => 'mysql:host=localhost;dbname=test',
-        'username' => 'root',
-        'password' => '',
+        'dsn' => 'mysql:host=localhost;dbname=atlas',
+        'username' => 'gfl',
+        'password' => 'gfl',
         'charset' => 'utf8',
     ]: [
         'class' => 'yii\db\Connection',

@@ -1,6 +1,3 @@
-CREATE DATABASE IF NOT EXISTS test;
-USE test;
-
 DROP TABLE IF EXISTS `country`;
 CREATE TABLE `country` (
   `code` CHAR(2) NOT NULL PRIMARY KEY,
