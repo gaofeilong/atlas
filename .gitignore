@@ -4,4 +4,5 @@ sftp-config.json
 **/protected/data/*.db
 **/themes/classic/views/
 !**/assets/.gitignore
+!**/assets/AppAsset.php
 !**/protected/runtime/.gitignore
