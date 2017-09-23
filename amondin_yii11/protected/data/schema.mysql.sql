@@ -1,10 +1,10 @@
+DROP TABLE tbl_user;
 CREATE TABLE tbl_user (
     id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(128) NOT NULL,
     password VARCHAR(128) NOT NULL,
     email VARCHAR(128) NOT NULL
 );
-
 INSERT INTO tbl_user (username, password, email) VALUES ('test1', 'pass1', 'test1@example.com');
 INSERT INTO tbl_user (username, password, email) VALUES ('test2', 'pass2', 'test2@example.com');
 INSERT INTO tbl_user (username, password, email) VALUES ('test3', 'pass3', 'test3@example.com');
@@ -26,3 +26,21 @@ INSERT INTO tbl_user (username, password, email) VALUES ('test18', 'pass18', 'te
 INSERT INTO tbl_user (username, password, email) VALUES ('test19', 'pass19', 'test19@example.com');
 INSERT INTO tbl_user (username, password, email) VALUES ('test20', 'pass20', 'test20@example.com');
 INSERT INTO tbl_user (username, password, email) VALUES ('test21', 'pass21', 'test21@example.com');
+
+DROP TABLE tbl_post;
+CREATE TABLE tbl_post (
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(128) NOT NULL,
+    content TEXT NOT NULL,
+    create_time INTEGER NOT NULL
+);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE1', 'Content 1', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE2', 'Content 2', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE3', 'Content 3', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE4', 'Content 4', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE5', 'Content 5', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE6', 'Content 6', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE7', 'Content 7', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE8', 'Content 8', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE9', 'Content 9', 0);
+INSERT INTO tbl_post (title, content, create_time) VALUES ('TITLE10', 'Content 10', 0);
