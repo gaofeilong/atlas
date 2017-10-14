@@ -34,11 +34,12 @@
                         'label' => '数据处理',
                         'items' => [
                             [
-                                'label' => '数据集成',
+                                'label' => '数据源',
                                 'url' => '#',
                                 'items' => [
-                                    ['label' => 'HDFS数据源', 'url' => '#'],
-                                    ['label' => 'KAFKA数据源', 'url' => '#'],
+                                    ['label' => 'HDFS', 'url' => '#'],
+                                    ['label' => 'KAFKA', 'url' => '#'],
+                                    ['label' => 'MYSQL', 'url' => '#'],
                                 ],
                             ],
                             [
@@ -70,17 +71,17 @@
                                     ['label' => '自定义脚本', 'url' => '#'],
                                 ],
                             ],
+                            [
+                                'label' => '在线查询',
+                                'url' => '#',
+                                'items' => [
+                                    ['label' => 'HIVE在线查询-SQL', 'url' => '#'],
+                                    ['label' => 'HIVE在线查询-配置', 'url' => '#'],
+                                    ['label' => 'GREENPLUM在线查询', 'url' => '#'],
+                                    ['label' => 'MYSQL在线查询', 'url' => '#'],
+                                ],
+                            ],
                             ['label' => '工作流', 'url' => '#'],
-                        ],
-                    ],
-                    [
-                        'label' => '在线查询',
-                        'url' => '#',
-                        'items' => [
-                            ['label' => 'HIVE在线查询-SQL', 'url' => '#'],
-                            ['label' => 'HIVE在线查询-配置', 'url' => '#'],
-                            ['label' => 'GREENPLUM在线查询', 'url' => '#'],
-                            ['label' => 'MYSQL在线查询', 'url' => '#'],
                         ],
                     ],
                     [
